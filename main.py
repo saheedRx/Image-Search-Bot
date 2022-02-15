@@ -11,7 +11,7 @@ Bot = Client(
     api_hash=os.environ.get("API_HASH")
 )
 
-API = "https://apibu.herokuapp.com/api/y-images?query="
+API = "http://api.ababeen.com/api/images.php?q="
 
 START_TEXT = """Hello {},
 I am an image search bot. You can use me in inline.
